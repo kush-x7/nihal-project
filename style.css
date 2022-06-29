@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+  --blue: #0e254b;
+}
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ////////// UTILITIES //////////////// */
+
+.u-margin-top-2 {
+  margin-top: 2rem;
+}
+.u-margin-bottom-2 {
+  margin-bottom: 2rem;
+}
+
+/* ////////// UTILITIES //////////////// */
+
+.container {
+  max-width: 43rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Logo container */
+.container__logo-box {
+  width: 20rem;
+}
+
+.logo {
+  width: 100%;
+}
+
+/* Chair container */
+.container__chair-box {
+  background-color: var(--blue);
+  color: white;
+  padding: 30px 65px;
+}
+
+.chair-box__heading {
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.heading-bolder {
+  font-weight: 700;
+}
+
+.chair-box__image {
+  width: 30rem;
+}
+
+.chair-image {
+  width: 100%;
+}
+
+.chair-box__button {
+  text-align: center;
+}
+
+.btn,
+btn:link,
+btn:visited {
+  text-align: center;
+  text-decoration: none;
+  padding: 0.7rem 2rem;
+  display: inline-block;
+  border-radius: 0.4rem;
+
+  background-color: rgb(44, 127, 255);
+  color: rgb(255, 255, 255);
+}
+
+/* Join Us Box  */
+
+.join-us-box {
+  width: 100%;
+}
+
+.join-use-box__heading {
+  text-align: center;
+  font-weight: 500;
+  font-size: 3rem;
+  color: rgb(14, 55, 116);
+}
+
+.join-us-box__flex-container {
+  background-color: #f8f8f9;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  background-color: white;
+  width: 45%;
+  padding: 1.5rem 2rem;
+  margin: 0.75rem;
+  border-radius: 0.5rem;
+  /* min-height: 17rem; */
+  box-shadow: 0 9px 37px rgba(145, 157, 168, 0.16) !important;
+}
+
+.box__image {
+  margin-bottom: 1rem;
+  width: 3.5rem;
+}
+
+.box__image img {
+  width: 100%;
+}
+
+.box__heading {
+  font-size: 1.15rem;
+  margin-bottom: 0.25rem;
+}
+
+.box__paragraph {
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+
+.box__footer-img {
+  margin-top: 1.5rem;
+  float: right;
+  height: 1.25rem;
+}
+
+.box__footer-img img {
+  height: 100%;
+  width: 100%;
+}
